@@ -9,6 +9,7 @@
       <div class="main-barra"><BarraComp/></div>
     </main>
     <FooterComp/>  
+    <BarraFooterComp/>   
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import LogoComp from './components/LogoComp.vue'
 import NavComp from './components/NavComp.vue'
 import BarraComp from './components/BarraComp.vue'
 import FooterComp from './components/FooterComp.vue'
+import BarraFooterComp from './components/BarraFooterComp.vue'
 
 export default {
   name: 'App',
@@ -24,7 +26,8 @@ export default {
     LogoComp,
     NavComp,
     BarraComp,
-    FooterComp
+    FooterComp,
+    BarraFooterComp
   }
   
 }
