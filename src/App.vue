@@ -1,18 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header>
+      <LogoComp/>
+      <NavComp/>
+    </header>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LogoComp from './components/LogoComp.vue'
+import NavComp from './components/NavComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LogoComp,
+    NavComp
   }
+  
 }
 </script>
 
@@ -23,6 +28,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
 }
 </style>
