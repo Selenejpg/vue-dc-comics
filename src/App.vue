@@ -8,9 +8,7 @@
       <div class="main-active"><h2>Il contenuto va qui</h2></div>
       <div class="main-barra"><BarraComp/></div>
     </main>
-    <footer>
-      <FooterComp/>
-    </footer>
+    <FooterComp/>  
   </div>
 </template>
 
