@@ -21,6 +21,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+@import './style/variabili.scss';
+
     ul{
         list-style-type: none;
         display: flex;
@@ -32,8 +35,8 @@ export default {
     }
 
     .active{
-        color: #0282f9;
-        border-bottom: 2px solid #0282f9;
+        color: $blue;
+        border-bottom: 2px solid $blue;
         margin-top: 2px;
         padding: 10px;
     }
