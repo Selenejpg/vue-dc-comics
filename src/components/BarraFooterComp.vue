@@ -1,6 +1,6 @@
 <template>
    <div class="flex">
-       <div class="button flex-li"><h2>SIGN-UP NOW!</h2></div>
+       <div class="button-1 flex-li"><h2>SIGN-UP NOW!</h2></div>
        <div class="flex-li font-size">
            <h1>FOLLOW US</h1>
            <ul>
@@ -66,7 +66,7 @@ h1{
     margin-left: 45%;
 }
 
-.button {
+.button-1 {
     border: 1px solid $blue;
     width: 14%;
     font-size: 10px;
