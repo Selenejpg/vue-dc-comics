@@ -31,6 +31,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 ul{
     display: flex;
     justify-content: center;
@@ -39,6 +40,7 @@ ul{
 
 li{
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 12px;
 }
@@ -54,7 +56,8 @@ li{
 }
 
 .icon-visa{
-    width: 70%;
+    width: 15%;
+    margin-left: -90px;
     margin-right: 15px;
 }  
 
