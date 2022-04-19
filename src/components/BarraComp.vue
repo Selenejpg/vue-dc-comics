@@ -56,8 +56,7 @@ li{
 }
 
 .icon-visa{
-    width: 15%;
-    margin-left: -90px;
+    width: 90%;
     margin-right: 15px;
 }  
 
